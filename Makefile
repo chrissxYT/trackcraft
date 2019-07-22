@@ -1,3 +1,3 @@
 all:
 	./cat_urls.sh
-	echo "source format.vim\nwq\n" | ex blocklist
+	echo "source format.vim\n" | ex blocklist
