@@ -10,4 +10,5 @@ sort u
 %s/.*googleapis\.l\.google\.com.*\n//g
 %s/s\.youtube\.com.*\n//g
 %s/s3\.amazonaws\.com.*\n//g
+%s/.*amzn.to.*\n//g
 wq
