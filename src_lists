@@ -26,7 +26,6 @@ https://raw.githubusercontent.com/hectorm/hmirror/master/data/ransomwaretracker.
 https://raw.githubusercontent.com/hectorm/hmirror/master/data/someonewhocares.org/list.txt	
 https://raw.githubusercontent.com/hectorm/hmirror/master/data/spam404.com/list.txt	
 https://raw.githubusercontent.com/hectorm/hmirror/master/data/stevenblack/list.txt	
-https://raw.githubusercontent.com/hectorm/hmirror/master/data/winhelp2002.mvps.org/list.txt	
 https://raw.githubusercontent.com/hectorm/hmirror/master/data/zerodot1-coinblockerlists-browser/list.txt	
 https://raw.githubusercontent.com/hectorm/hmirror/master/data/zeustracker.abuse.ch/list.txt	
 https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt	
@@ -34,7 +33,6 @@ https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
 https://www.stopforumspam.com/downloads/toxic_domains_whole.txt	
 https://raw.githubusercontent.com/CHEF-KOCH/NSABlocklist/master/HOSTS/Trackers/canvas%20fingerprinting%20pages.txt	
 https://raw.githubusercontent.com/CHEF-KOCH/NSABlocklist/master/HOSTS/Trackers/audio%20fingerprinting%20pages.txt	
-https://raw.githubusercontent.com/CHEF-KOCH/NSABlocklist/master/HOSTS/Trackers/Canvas%20font%20fingerprinting.txt	
 https://raw.githubusercontent.com/CHEF-KOCH/NSABlocklist/master/HOSTS/Trackers/trackers.txt	
 https://raw.githubusercontent.com/CHEF-KOCH/NSABlocklist/master/HOSTS/Trackers/webrtc%20tracking.txt	
 https://raw.githubusercontent.com/CHEF-KOCH/NSABlocklist/master/HOSTS/HOSTS	
@@ -44,4 +42,3 @@ https://hosts-file.net/exp.txt
 https://hosts-file.net/emd.txt
 https://hosts-file.net/psh.txt
 https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
-https://blocklist.kowabit.de/list.txt
