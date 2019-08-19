@@ -1,3 +1,3 @@
 all:
 	./cat_urls.sh
-	echo "source format.vim\n" | ex blocklist
+	ex -n -u NONE -S format.vim blocklist > /dev/null
