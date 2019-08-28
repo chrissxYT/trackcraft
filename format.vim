@@ -13,4 +13,6 @@ sort u
 %s/s3\.amazonaws\.com.*\n//g
 %s/amzn\.to.*\n//g
 normal ggdd
+%s/^www\.//
+sort u
 wq
