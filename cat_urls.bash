@@ -1,20 +1,21 @@
 #!/bin/bash
-I=1
+I=0
+C=$(wc -l src_lists | awk '{ print $1 }')
+while [ $I -lt $C ] ; do
+        echo -n ' ' >&2
+        I=$(($I + 1))
+done
+echo -ne ' ]\r[' >&2
 
-mkdir -p tmp
-
+I=0
 for u in $(cat src_lists) ; do
-        { curl -fsSLo tmp/$I "$u" ; echo Finished $I. ; } &
+        { curl -fsL "$u" ; echo -n '#' >&2 ; } &
         pids[${I}]=$!
         I=$(($I + 1))
-done | ./progress.sh $(wc -l src_lists | awk '{ print $1 }') >&2
+done
 
 for pid in ${pids[*]} ; do
         wait $pid
 done
 
-for j in $(ls tmp) ; do
-        cat tmp/$j
-done
-
-rm -rf tmp
+echo ] >&2
